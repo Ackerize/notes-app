@@ -142,6 +142,7 @@ export const NoteScreen = () => {
                         name="title"
                         value={values.title}
                         onChange={handleInputChange}
+                        autoComplete="off"
                       />
                     </div>
                   </div>
@@ -156,6 +157,7 @@ export const NoteScreen = () => {
                         name="content"
                         value={values.content}
                         onChange={handleInputChange}
+                        autoComplete="off"
                       />
                     </div>
                   </div>

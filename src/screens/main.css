@@ -1348,11 +1348,6 @@ h3 {
     font-size: 2.5rem;
   }
 
-  body {
-    padding-left: 15px;
-    padding-right: 25px;
-  }
-
   .s006 legend {
     font-size: 18px !important;
   }
@@ -1386,11 +1381,6 @@ h3 {
     font-size: 2.7rem;
   }
 
-  body {
-    padding-left: 20px;
-    padding-right: 40px;
-  }
-
   .s006 legend {
     font-size: 20px !important;
   }
@@ -1413,6 +1403,16 @@ h3 {
     width: 90%;
     padding: 0px 20px 0px 60px;
   }
+
+  #container-btn{
+    width: 200px;
+    margin-top: 1.2rem;
+  }
+
+  h3{
+    text-align: center;
+    font-size: 22px;
+  }
 }
 
 @media (min-width: 1024px) and (max-width: 1439px) {
@@ -1428,4 +1428,106 @@ h3 {
     width: 90%;
     padding: 0px 20px 0px 60px;
   }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  div.wrapper {
+    padding: 0 2rem;
+  }
+
+  .card-5 div.card-body {
+    padding: 52px 70px !important;
+  }
+
+  .container-dates > svg {
+    overflow: initial;
+  }
+}
+
+@media (max-width: 425px) {
+  div.wrapper {
+    padding: 0 2rem;
+  }
+
+  .navbar-brand{
+    font-size: 18px;
+  }
+
+  .header-content{
+    flex-direction: column;
+  }
+
+  .card-5 div.card-body {
+    padding: 52px 50px !important;
+  }
+
+  .s006 form .inner-form .input-field input {
+    width: 100%;
+  }
+
+  .header-content{
+    margin-bottom: 3rem;
+  }
+
+  #container-btn{
+    margin-top: .5rem;
+  }
+
+  .btn {
+    padding: 0 20px;
+  }
+
+  div#container-btn > button.btn.custom-add-note{
+    padding: 0 50px !important;
+  }
+
+  #todo-container {
+    padding: 45px 15px !important;
+  }
+
+  .list-labels {
+    font-size: 1rem;
+  }
+
+  .done-task-title {
+    padding: 0 10px 0 0;
+  }
+
+  .input-date {
+    width: 60%;
+  }
+
+  .input-date-picker {
+    width: 62% !important;
+  }
+  .title {
+    font-size: 22px;
+}
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+  .card-5 div.card-body {
+    padding: 45px 40px !important;
+  }
+}
+
+@media (max-width: 320px) {
+  div.wrapper {
+    padding: 0 1.5rem;
+  }
+  .btn {
+    padding: 0 12px;
+  }
+
+  .card-5 div.card-body {
+    padding: 45px 30px !important;
+  }
+}
+
+.eye-icon {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin-right: 0.5rem;
 }
