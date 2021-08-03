@@ -1362,11 +1362,6 @@ h3 {
     font-size: 2.7rem;
   }
 
-  body {
-    padding-left: 15px;
-    padding-right: 40px;
-  }
-
   .s006 legend {
     font-size: 20px !important;
   }
@@ -1505,11 +1500,6 @@ h3 {
 }
 }
 
-@media (min-width: 321px) and (max-width: 375px) {
-  .card-5 div.card-body {
-    padding: 45px 40px !important;
-  }
-}
 
 @media (max-width: 320px) {
   div.wrapper {
@@ -1530,4 +1520,10 @@ h3 {
   top: 50%;
   transform: translate(-50%, -50%);
   margin-right: 0.5rem;
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+  .card-5 div.card-body {
+    padding: 45px 40px !important;
+  }
 }
